@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="heading">
+        <h1>Simple Currency converter</h1>
+      </div>
+    </header>
+    <form name="currency">
+      <div class="cc_MainContainer">
+        <div class="exchangeValue_container">
+          <div class="exchange_heading">
+            <span>Exchange Ratio</span>
+          </div>
+          <div class="exchange_amount">
+            <span> 1000</span>
+          </div>
+        </div>
+        <div class="amount-container">
+          <label for="amount"> Amount</label>
+          <div class="input-field">
+            <input id="amount" type="text" />
+          </div>
+        </div>
+        <div class="currency_main_container">
+          <div class="from_container">
+            <label for="amount"> from</label>
+            <div class="input-field">
+              <select name="from_currency">
+                <option>Select a Currency</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="to_container">
+            <label for="amount"> to</label>
+            <div class="input-field">
+              <select name="to_currency">
+                <option>Select a Currency</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <script src="/src/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+body {
+  background: #022c43;
+  color: white;
+}
+
+.header {
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cc_MainContainer {
+  background: white;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  color: black;
+  min-height: 200px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.exchange_heading span {
+  opacity: 0.7;
+  color: grey;
+}
+
+.exchangeValue_container {
+  padding: 15px;
+  border-top: 4px solid rgb(19, 165, 214);
+  text-align: center;
+}
+
+.exchange_amount {
+  padding: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 2px 10px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 6px;
+  box-shadow: rgb(0 17 51 / 5%) 0px 3px 15px;
+  padding: 15px;
+  color: rgb(20, 30, 55);
+  background: none;
+  margin: 1px;
+}
+
+select {
+  color: black !important;
+  height: 36px;
+  background-image: none;
+  width: 100%;
+  margin: 10px;
+}
+
+.currency_main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.from_container,
+.to_container {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
